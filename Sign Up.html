@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <h1>Course Sign Up Page</h1>
+    <p>Welcome!</p>
+    <form  action="thankyou.html" method="get">
+
+
+      <label for="First">First Name</label>
+      <input id="First"type="text" name="FirstName"  placeholder="First Name" required>
+
+      <label for="last">Last Name</label>
+      <input id="last"type="text" name="lastName"  placeholder="Last Name" required>
+      <p></p>
+      <label for="email">E-Mail</label>
+      <input id="email"type="email" name="Email"  placeholder="example@email.com" required>
+
+      <label for="pass">Password</label>
+      <input id="pass" type="password" name="Password"  placeholder="********"required>
+
+      <p>Are you over the age 18?</p>
+      <label for="yes">Yes:</label>
+      <input id="yes"type="radio" name="age" value="y18">
+      <label for="no">No:</label>
+      <input type="radio" name="age" value="n18">
+
+      <p>Do you have a Credit Card or PayPal?</p>
+      <select name="Credit">
+        <option value="CC">Credit Card</option>
+        <option value="PP">PayPal</option>
+      </select>
+      <input type="submit" name="Sign Up">
+    </form>
+
+  </body>
+</html>
